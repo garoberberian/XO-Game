@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="xoGame-style.css">
+    <script defer src="xoGame-script.js"></script>
+    <title>XO Game</title>
+</head>
+<body>
+    <header>
+        <h1>XO Game</h1>
+    </header>
+    <section class="main-container">
+        <div class="player-names">
+            <p class="player1-name" hidden>player1: X</p>
+            <p class="player2-name" hidden>player2: O</p>
+        </div>
+        <div class="play-field">
+            <div class="flex">
+                <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box box3"></div>
+            </div>
+            <div class="flex">
+                <div class="box box4"></div>
+                <div class="box box5"></div>
+                <div class="box box6"></div>
+            </div>
+            <div class="flex">
+                <div class="box box7"></div>
+                <div class="box box8"></div>
+                <div class="box box9"></div>
+            </div>
+        </div>  
+        <div class="btns">
+            <button class="btn btn-start">START</button>
+            <button class="btn btn-reset" hidden>Reset</button>
+            <button class="btn btn-rematch" hidden>Rematch</button>
+            <button class="btn btn-quit" hidden>Quit</button>
+        </div> 
+        <div class="result-container">
+            <p class="result-text" hidden>Player 1 wins!</p>
+            <p class="result-text" hidden>Player 2 wins!</p>
+            <p class="result-text" hidden>Tie</p>
+        </div>
+    </section>
+</body>
+</html>
