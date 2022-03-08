@@ -21,7 +21,6 @@ function setup() {
 }
 
 function play() {
-    console.log(event.target)
     let player1Count = 0;
     let player2Count = 0;
     const xLogo = document.createElement('div');
